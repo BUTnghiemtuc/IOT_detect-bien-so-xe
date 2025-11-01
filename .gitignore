@@ -1,0 +1,91 @@
+# ==========================
+# 🐍 Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# ==========================
+# 🧪 Virtual Environment
+# ==========================
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# ==========================
+# 📦 Build / Cache
+# ==========================
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.cache/
+*.log
+*.tmp
+
+# ==========================
+# 🤖 AI / Deep Learning
+# ==========================
+# runs/
+# weights/
+# *.pt
+# *.onnx
+# *.engine
+# *.tflite
+# *.ckpt
+# *.pkl
+# *.h5
+# *.trt
+
+# ==========================
+# 📂 Input / Output Data
+# ==========================
+images/
+# outputs/
+datasets/
+data/
+results/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.json
+
+# ==========================
+# 💾 IDE & Editors
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# 🚀 OS files
+# ==========================
+desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# ==========================
+# 🔑 Secrets / Credentials
+# ==========================
+*.key
+*.pem
+*.crt
+*.pfx
+*.json
+credentials.yaml
+config.yaml
+token.txt
