@@ -1,5 +1,35 @@
-ultralytics
-paddleocr
-opencv-python-headless
-numpy
-tqdm
+# ==========================
+# 🚘 License Plate Detection & OCR
+# Compatible with Python 3.10+ and Windows 10+
+# ==========================
+
+# --- YOLOv8 (object detection) ---
+ultralytics==8.2.90
+
+# --- PaddleOCR + PaddlePaddle (OCR engine) ---
+paddleocr==2.7.0.3
+paddlepaddle==2.6.1
+
+# --- Image processing ---
+opencv-python==4.6.0.66
+opencv-contrib-python==4.6.0.66
+# hoặc dùng phiên bản không GUI (nếu chạy trên server)
+# opencv-python-headless==4.6.0.66
+
+# --- Core dependencies ---
+numpy==1.26.4
+tqdm==4.66.4
+Pillow==10.3.0
+
+# --- Optional for PaddleOCR compatibility ---
+cython==3.1.6
+attrdict==2.0.1
+imgaug==0.4.0
+fire==0.7.1
+premailer==3.10.0
+python-docx==1.2.0
+rapidfuzz==3.14.2
+
+# --- Optional utilities ---
+onnxruntime==1.18.0
+requests>=2.31.0
