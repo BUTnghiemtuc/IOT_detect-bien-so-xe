@@ -54,15 +54,15 @@ Thumbs.db
 # ==========================
 # images/
 # outputs/
-datasets/
-data/
-results/
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.gif
-*.json
+# datasets/
+# data/
+# results/
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+# *.gif
+# *.json
 
 # ==========================
 # 💾 IDE & Editors
