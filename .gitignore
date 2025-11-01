@@ -52,7 +52,7 @@ Thumbs.db
 # ==========================
 # 📂 Input / Output Data
 # ==========================
-images/
+# images/
 # outputs/
 datasets/
 data/
