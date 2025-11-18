@@ -8,7 +8,7 @@ import numpy as np
 from typing import List, Tuple, Optional
 
 # ====== Cấu hình ======
-SERIAL_PORT = "COM6"                 # đổi đúng cổng của bạn
+SERIAL_PORT = "COM3"                 # đổi đúng cổng của bạn
 BAUD = 115200
 API_BASE = "http://127.0.0.1:8000"   # đổi sang IP server FastAPI nếu chạy máy khác
 POST_URL = f"{API_BASE}/events"
